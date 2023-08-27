@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
+* {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+body {
+  background: black;
+}
+
+img {
+  width: 100%;
+  border: 5px solid white;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 15px auto;
+  font-family: "Libre Baskerville ", serif;
+  text-transform: uppercase;
+}
+
+p {
+  padding: 15px;
+}
+/*  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div.  */
+.container {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+}
