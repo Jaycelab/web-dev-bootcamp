@@ -1,0 +1,25 @@
+/* Write your code here: */
+h1,
+h2 {
+  color: blueviolet;
+}
+
+.box > p {
+  color: firebrick;
+}
+
+.box li {
+  color: blue;
+}
+/* using a .box > li will not work because the li tag is not a direct child of the class box */
+
+li.done {
+  color: green;
+}
+
+/* instead of selecting the parent class, you can set it's direct selector (li) and apply the . class without any spaces on the same line*/
+
+ul p.done {
+  font-size: 0.5rem;
+}
+/* ul>p.done is also a valid selector for this property */
