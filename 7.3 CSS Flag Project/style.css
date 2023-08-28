@@ -1,0 +1,60 @@
+/* CSS overview in dev tools to locate the specific color value */
+* {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* RED */
+.flag {
+  background-color: #ce1126;
+  height: 600px;
+  width: 900px;
+  position: relative;
+  border: 10px solid white;
+  /*   relative as its the parent container and is needed to apply the absolute positining for the blue section  */
+}
+
+/* BLUE */
+.flag > div {
+  background-color: #002868;
+  width: 100%;
+  /* 
+  rather than assigning a set of height/width, we can just use percentage if setting an exact value from it's parent selector. In this case, we would apply a 100% value */
+
+  height: 300px;
+  /*   half of the parents company value (600px) */
+
+  /* .flag div will also work however any additional divs applied on the container will also be affected */
+  position: absolute;
+  top: 150px;
+  /*   300px will instead bring the container all the way down since it is half of its relative height. instead, we apply a quarter value which is 150px */
+}
+
+/* CIRCLE */
+.flag > div > div {
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: relative;
+
+  /*   To center the circle, we apply quarter from its original relative parent container (red rectangle). The original width is 900x and is further reduced down to 300px.
+
+  The height is take from its relative blue rectangle rather than the red rectangle. Rather than using the red rectangle as a reference value, we use the values for the blue rectangle instead. In this case , the 300px is reduced to 150px. The original white circle has a 100px height/width and radius of 50%, which would equal to 200px. To match the value of 150px, which is half, we would apply an additional 50px instead*/
+  left: 350px;
+  top: 50px;
+}
+
+p {
+  font-size: 5rem;
+}
+
+div.flag > p {
+  color: #ffffff;
+}
+
+.flag div div p {
+  color: #000;
+  /*   three generations down fron its parent class  */
+}
