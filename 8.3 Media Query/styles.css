@@ -1,0 +1,29 @@
+body {
+  background-color: aquamarine;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+  body {
+    background-color: lightsalmon;
+  }
+}
+
+/* After the breakpoint value, you must select an element before applying any CSS. Code above essentially means that once the page is above 319px AND below 480px, the css values will then be applied .*/
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    background-color: powderblue;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    background-color: limegreen;
+  }
+}
+
+@media (min-width: 1601px) {
+  body {
+    background-color: seagreen;
+  }
+}
