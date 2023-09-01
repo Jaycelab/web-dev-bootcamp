@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+}
+
+.container {
+  color: white;
+  border: 5px solid gold;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+/* we can either set the display to a flex with a set width OR we can also set to inline-flex so that the elements automatically fill in the container 
+ */
+.container * {
+  flex-basis: 100px;
+}
+
+/*
+Select all the elements that are the direct
+children of the .container class.
+  */
+
+.red {
+  background-color: #eb4d4b;
+}
+.orange {
+  background-color: #f0932b;
+}
+.yellow {
+  background-color: #f6e58d;
+}
+.green {
+  background-color: #6ab04c;
+}
+.blue {
+  background-color: #4834d4;
+}
+.indigo {
+  background-color: #30336b;
+}
+.purple {
+  background-color: #be2edd;
+}
