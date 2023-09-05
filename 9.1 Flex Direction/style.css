@@ -7,14 +7,17 @@
 .container {
   color: white;
   border: 5px solid gold;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
+
+  align-items: center;
 }
 
 /* we can either set the display to a flex with a set width OR we can also set to inline-flex so that the elements automatically fill in the container 
  */
 .container * {
-  flex-basis: 100px;
+  flex-basis: 200px;
+  width: 200px;
 }
 
 /*
