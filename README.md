@@ -1,6 +1,6 @@
 # The Complete 2023 Web Development Bootcamp
 
-HTML 5 :+1:
+~~HTML 5~~ :+1:
 
 CSS 3 :+1:
 
