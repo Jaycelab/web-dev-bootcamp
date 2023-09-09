@@ -2,11 +2,11 @@
 
 ~~HTML 5~~ :+1:
 
-CSS 3 :+1:
+~~CSS 3~~ :+1:
 
-Flexbox :+1:
+~~Flexbox~~ :+1:
 
-Grid :+1:
+~~Grid~~ :+1:
 
 Bootstrap 5
 
