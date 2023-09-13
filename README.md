@@ -8,7 +8,7 @@
 
 ~~Grid~~ :+1:
 
-Bootstrap 5
+~~Bootstrap~~ 5 :+1:
 
 Javascript ES6
 
